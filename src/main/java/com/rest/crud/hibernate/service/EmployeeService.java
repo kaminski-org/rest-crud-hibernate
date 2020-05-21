@@ -1,8 +1,9 @@
-package com.rest.crud.hibernate.entity;
+package com.rest.crud.hibernate.service;
 
+import com.rest.crud.hibernate.entity.Employee;
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 
   List<Employee> findAll();
 
